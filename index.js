@@ -1,5 +1,3 @@
-// const { log } = require("node:console");
-// const path = require("node:path");
 const contacts = require("./contactsList");
 const contactById = require("./getById");
 const removeContact = require("./removeContact");
