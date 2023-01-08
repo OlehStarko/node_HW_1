@@ -1,7 +1,7 @@
-const contacts = require("./contactsList");
-const contactById = require("./getById");
-const removeContact = require("./removeContact");
-const addContact = require("./addContact");
+const contacts = require("./modules/contactsList");
+const contactById = require("./modules/getById");
+const removeContact = require("./modules/removeContact");
+const addContact = require("./modules/addContact");
 
 const argv = require("yargs").argv;
 
